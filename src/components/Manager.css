@@ -1,0 +1,15 @@
+.password-text-wrapper {
+  position: relative;
+  width: 120px;
+  height: 24px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.password-char {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+}
