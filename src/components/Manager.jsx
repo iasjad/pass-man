@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import { v4 as uuidv4 } from 'uuid';
-import './manager.css';
+import './Manager.css';
 import { supabase } from '../utils/supabaseClient';
 import { encryptData, decryptData } from '../utils/encryption';
 
